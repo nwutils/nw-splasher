@@ -1,0 +1,21 @@
+{
+  "name": "nw-splasher",
+  "version": "1.0.0",
+  "description": "Small library to show a splash screen until main application loads.",
+  "main": "nw-splasher.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwutils/nw-splasher.git"
+  },
+  "keywords": [
+    "NW.js",
+    "Splash screen",
+    "loading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwutils/nw-splasher/issues"
+  },
+  "homepage": "https://github.com/nwutils/nw-splasher#readme"
+}
