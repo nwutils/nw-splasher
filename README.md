@@ -10,7 +10,7 @@ The splash screen will run in a separate process so any animations will play smo
 
 ## Demo
 
-Here is a demo projec that uses the `nw-splasher.js` and `nw-splasher.css` files:
+Here is a demo project that uses the `nw-splasher.js` and `nw-splasher.css` files:
 
 * https://github.com/nwutils/nw-splash-screen-example
 
