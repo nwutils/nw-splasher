@@ -22,8 +22,8 @@ Here is a demo projec that uses the `nw-splasher.js` and `nw-splasher.css` files
 
 1. `npm install --save nw-splasher`
 1. Create a `splash.html` file and an `index.html` file (for your app)
-  * Add this line to the `<head>` of both files.
-  * `<script src="node_modules/nw-splasher/nw-splasher.js"></script>`
+    * Add this line to the `<head>` of both files.
+    * `<script src="node_modules/nw-splasher/nw-splasher.js"></script>`
 1. In `package.json` set `"main": "splash.html"`
 1. In the `splash.html` run `nwSplasher.loadAppWindowInBackground()`
 1. In the `index.html` run `nwSplasher.closeSplashAndShowApp()` after the app is done loading and ready to be displayed
