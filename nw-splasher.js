@@ -70,7 +70,7 @@ const nwSplasher = {
    *
    * @param  {string}    url              URL to load in the App window. Defaults to index.html, default.html, main.html, or app.html if those files exist, or the first html file it finds.
    * @param  {object}    newWindowOptions Object with the NW.js Window fields (height, width, frameless, etc)
-   * @param  {number}    port             Defaults to 1337, must match the same port number used in the app window
+   * @param  {number}    port             Defaults to 4443, must match the same port number used in the app window
    * @return {undefined}                  Returns nothing, just executes
    */
   loadAppWindowInBackground: function (url, newWindowOptions, port) {
@@ -109,7 +109,7 @@ const nwSplasher = {
    * Call this from your App window when it is ready to be shown.
    * This will also trigger closing the Splash screen window.
    *
-   * @param  {number}    port  Optional port number, defaults to 1337. Must match port number used in Splash window
+   * @param  {number}    port  Optional port number, defaults to 4443. Must match port number used in Splash window
    * @return {undefined}       Nothing is returned, this just runs a command.
    */
   closeSplashAndShowApp: function (port) {
