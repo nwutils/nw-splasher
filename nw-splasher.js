@@ -56,7 +56,14 @@ const nwSplasher = {
     return newWindowOptions;
   },
   validatePort: function (port) {
-    if (typeof(port) !== 'number') {
+    const lowestAllowedPortNumber = 1;
+    const highestAllowedPortNumber = 65535;
+    if (
+      typeof(port) !== 'number' ||
+      isNaN(port) ||
+      port < lowestAllowedPortNumber ||
+      port > highestAllowedPortNumber
+    ) {
       port = 4443;
     }
     return port;
